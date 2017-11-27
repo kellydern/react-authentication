@@ -6,7 +6,7 @@ import { Header } from './components/common';
 
 class App extends Component {
   componentWillMount() {
-    firebase,initializeApp( {
+    firebase.initializeApp( {
     apiKey: 'AIzaSyAsKCB9aU-WJWi3ywQRZOiHm1bn3MqWsTk',
     authDomain: 'authentication-61c81.firebaseapp.com',
     databaseURL: 'https://authentication-61c81.firebaseio.com',
